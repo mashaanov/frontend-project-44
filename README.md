@@ -3,3 +3,4 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/7c3185013b455d214509/maintainability)](https://codeclimate.com/github/mashaanov/frontend-project-44/maintainability)
 [Demo even-game](https://asciinema.org/a/RF5VLUeEmDD3DCrfCnalrXVeW)
 [Demo calc-game](https://asciinema.org/a/bIpqsfqBNTOFkJr3jrV9gZWnv)
+[Demo gcd-game](https://asciinema.org/a/BsX4vJ8idLmVigRJWRJQ8PCE1)
