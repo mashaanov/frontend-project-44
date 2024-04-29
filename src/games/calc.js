@@ -1,11 +1,13 @@
-import { question } from "readline-sync";
 import { game } from '../gameTemplate.js';
 
 function getRandomIntInclusive(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min + 1) + min); // максимум и минимум включаются
-};
+  let minValue = min;
+  let maxValue = max;
+  minValue = Math.ceil(min);
+  maxValue = Math.floor(max);
+  return Math.floor(Math.random() * (maxValue - minValue + 1) + minValue);
+  // максимум и минимум включаются
+}
 
 const collOfOperators = ['+', '-', '*'];
 
@@ -16,12 +18,12 @@ const getRandomOperator = () => {
 
 const getRandomExpression = () => {
   const operand1 = getRandomIntInclusive(0, 100);
-  const operand2 = getRandomIntInclusive(0,100);
+  const operand2 = getRandomIntInclusive(0, 100);
   const operator = getRandomOperator();
   return (`${operand1} ${operator} ${operand2}`);
 };
 
-const description = "What is the result of the expression?";
+const description = 'What is the result of the expression?';
 
 const getCalc = (expression) => {
   const collElemOfExpression = expression.split(" ");
