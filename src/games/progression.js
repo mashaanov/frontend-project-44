@@ -1,12 +1,14 @@
-import { game } from "../gameTemplate.js";
+import { game } from '../gameTemplate.js';
 
 function getRandomIntInclusive(min, max) {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min + 1) + min); // максимум и минимум включаются
-};
+  let minValue = min;
+  let maxValue = max;
+  minValue = Math.ceil(min);
+  maxValue = Math.floor(max);
+  return Math.floor(Math.random() * (maxValue - minValue + 1) + minValue); // максимум и минимум включаются
+}
 
-const description = "What number is missing in the progression?";
+const description = 'What number is missing in the progression?';
 
 const getArithProgression = () => {
   const progression = [];
@@ -15,14 +17,14 @@ const getArithProgression = () => {
   progression.push(elem);
 
   while (progression.length < 10) {
-    elem += step
+    elem += step;
     progression.push(elem);
-  };
+  }
 
   const randomIndex = getRandomIntInclusive(0, 9);
   const replacedElem = progression[randomIndex];
   progression[randomIndex] = '..';
-  const formattedProgression = progression.join(' '); 
+  const formattedProgression = progression.join(' ');
 
   return [formattedProgression, replacedElem];
 };
@@ -32,6 +34,6 @@ const getAnswerAndQuestion = () => {
   const question = formattedProgression;
   const answer = replacedElem;
   return [answer, question];
-}
+};
 
 export default () => game(description, getAnswerAndQuestion);
