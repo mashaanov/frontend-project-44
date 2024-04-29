@@ -1,4 +1,4 @@
-import { game } from "../gameTemplate.js";
+import { game } from '../gameTemplate.js';
 
 function getRandomIntInclusive(min, max) {
   let minValue = min;
@@ -10,7 +10,7 @@ function getRandomIntInclusive(min, max) {
 }
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no"';
-const isEven = (number) => (number % 2 === 0 ? "yes" : "no");
+const isEven = (number) => (number % 2 === 0 ? 'yes' : 'no');
 
 const getAnswerAndQuestion = () => {
   const question = getRandomIntInclusive(0, 100);
