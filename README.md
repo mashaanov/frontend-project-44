@@ -4,3 +4,4 @@
 [Demo even-game](https://asciinema.org/a/RF5VLUeEmDD3DCrfCnalrXVeW)
 [Demo calc-game](https://asciinema.org/a/bIpqsfqBNTOFkJr3jrV9gZWnv)
 [Demo gcd-game](https://asciinema.org/a/BsX4vJ8idLmVigRJWRJQ8PCE1)
+[Demo progression-game](https://asciinema.org/a/zmF6a4oaGKqK8pQAYAh2AIyhS)
