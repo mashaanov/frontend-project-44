@@ -5,7 +5,8 @@ function getRandomIntInclusive(min, max) {
   let maxValue = max;
   minValue = Math.ceil(min);
   maxValue = Math.floor(max);
-  return Math.floor(Math.random() * (maxValue - minValue + 1) + minValue); // максимум и минимум включаются
+  return Math.floor(Math.random() * (maxValue - minValue + 1) + minValue); 
+  // максимум и минимум включаются
 }
 
 const description = 'What number is missing in the progression?';
