@@ -21,7 +21,7 @@ const getGcd = (number1, number2) => {
       num2 -= num1;
     }
   }
-  return (num1); 
+  return (num1);
 };
 
 const getAnswerAndQuestion = () => {
@@ -29,7 +29,7 @@ const getAnswerAndQuestion = () => {
   const number2 = getRandomIntInclusive(0, 100);
   const question = `${number1} ${number2}`;
   const answer = getGcd(number1, number2);
-  
+
   return [answer, question];
 };
 
