@@ -27,20 +27,20 @@ const description = 'What is the result of the expression?';
 
 const getCalc = (expression) => {
   const collElemOfExpression = expression.split(' ');
-  let [operand1, operator, operand2] = collElemOfExpression;
-  operand1 = +operand1;
-  operand2 = +operand2;
+  const [operand1, operator, operand2] = collElemOfExpression;
+  const operandOne = +operand1;
+  const operandTwo = +operand2;
   let result = 0;
 
   switch (operator) {
     case '+':
-      result = operand1 + operand2;
+      result = operandOne + operandTwo;
       break;
     case '-':
-      result = operand1 - operand2;
+      result = operandOne - operandTwo;
       break;
     case '*':
-      result = operand1 * operand2;
+      result = operandOne * operandTwo;
       break;
     default:
       break;
