@@ -26,26 +26,28 @@ const getRandomExpression = () => {
 const description = 'What is the result of the expression?';
 
 const getCalc = (expression) => {
-  const collElemOfExpression = expression.split(" ");
+  const collElemOfExpression = expression.split(' ');
   let [operand1, operator, operand2] = collElemOfExpression;
   operand1 = +operand1;
   operand2 = +operand2;
   let result = 0;
 
   switch (operator) {
-  case '+':
-    result = operand1 + operand2;
-    break;
-  case '-':
-    result = operand1 - operand2;
-    break;
-  case '*':
-    result = operand1 * operand2;
-    break;
+    case '+':
+      result = operand1 + operand2;
+      break;
+    case '-':
+      result = operand1 - operand2;
+      break;
+    case '*':
+      result = operand1 * operand2;
+      break;
+    default:
+      break;
   }
 
   return result;
-}
+};
 
 const getAnswerAndQuestion = () => {
   const question = getRandomExpression();
