@@ -12,7 +12,7 @@ function getRandomIntInclusive(min, max) {
 const collOfOperators = ['+', '-', '*'];
 
 const getRandomOperator = () => {
-  const randomIndex = [getRandomIntInclusive(0, 2)];
+  const randomIndex = getRandomIntInclusive(0, 2);
   return collOfOperators[randomIndex];
 };
 
