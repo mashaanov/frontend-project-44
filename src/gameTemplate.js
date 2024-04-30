@@ -28,3 +28,5 @@ export const game = (description, getAnswerAndQuestion) => {
     console.log(`Congratulations, ${userName}!`);
   }
 };
+
+export default game;
