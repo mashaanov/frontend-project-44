@@ -1,4 +1,4 @@
-import { game } from '../gameTemplate.js';
+import game from '../gameTemplate.js';
 
 function getRandomIntInclusive(min, max) {
   let minValue = min;
