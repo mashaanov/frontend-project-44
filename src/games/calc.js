@@ -1,16 +1,16 @@
 import { game } from '../gameTemplate.js';
-import randomFunction from '../random-function.js';
+import getRandomIntInclusive from '../random-function.js';
 
 const collOfOperators = ['+', '-', '*'];
 
 const getRandomOperator = () => {
-  const randomIndex = randomFunction(0, 2);
+  const randomIndex = getRandomIntInclusive(0, 2);
   return collOfOperators[randomIndex];
 };
 
 const getRandomExpression = () => {
-  const operand1 = randomFunction(0, 100);
-  const operand2 = randomFunction(0, 100);
+  const operand1 = getRandomIntInclusive(0, 100);
+  const operand2 = getRandomIntInclusive(0, 100);
   const operator = getRandomOperator();
   return (`${operand1} ${operator} ${operand2}`);
 };
