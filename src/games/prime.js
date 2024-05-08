@@ -20,7 +20,7 @@ const isPrime = (number) => {
 
 const getAnswerAndQuestion = () => {
   const question = getRandomIntInclusive(0, 100);
-  const answer = isPrime(question) ? "yes": "no"
+  const answer = isPrime(question) ? 'yes' : 'no';
   return [answer, question];
 };
 
