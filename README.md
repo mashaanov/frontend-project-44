@@ -5,7 +5,7 @@
 
 Mind Games is a set of five console games. Each game asks questions that need to be answered. The game lasts three rounds and after three correct answers, the game is considered to be completed. Incorrect results end the game and its consequences go through again!
 
-# Installation
+## Installation
 
 ## 1. Clone repository
     git clone https://github.com/bobrov-site/frontend-project-44.git
