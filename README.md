@@ -13,7 +13,11 @@ Mind Games is a set of five console games. Each game asks questions that need to
     npm i
 ### 3. Install local packages
     sudo npm link
-    
+
+## How to play BRAIN-EVEN game (also installation)
+
+<a href="https://asciinema.org/a/EvZ2hD11lHYoL9lOO8BoYVlko" target="_blank"><img src="https://asciinema.org/a/EvZ2hD11lHYoL9lOO8BoYVlko.svg" /></a>
+
 ## How to play BRAIN-CALC
 
 <a href="https://asciinema.org/a/bIpqsfqBNTOFkJr3jrV9gZWnv" target="_blank"><img src="https://asciinema.org/a/bIpqsfqBNTOFkJr3jrV9gZWnv.svg" /></a>
