@@ -12,7 +12,7 @@ Mind Games is a set of five console games. Each game asks questions that need to
 ### 2. Install packages
     npm i
 ### 3. Install local packages
-    sudo npm link
+    npm link
 
 ## How to play BRAIN-EVEN game (also installation)
 
