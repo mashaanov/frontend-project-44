@@ -14,8 +14,11 @@ Mind Games is a set of five console games. Each game asks questions that need to
 ### 3. Install local packages
     sudo npm link
     
+## How to play BRAIN-CALC
+
+<a href="https://asciinema.org/a/bIpqsfqBNTOFkJr3jrV9gZWnv" target="_blank"><img src="https://asciinema.org/a/bIpqsfqBNTOFkJr3jrV9gZWnv.svg" /></a>
+
 [Demo even-game](https://asciinema.org/a/RF5VLUeEmDD3DCrfCnalrXVeW)
-[Demo calc-game](https://asciinema.org/a/bIpqsfqBNTOFkJr3jrV9gZWnv)
 [Demo gcd-game](https://asciinema.org/a/BsX4vJ8idLmVigRJWRJQ8PCE1)
 [Demo progression-game](https://asciinema.org/a/zmF6a4oaGKqK8pQAYAh2AIyhS)
 [Demo prime-game](https://asciinema.org/a/bVDcTQOZmNYFQ1mu5nxy5iGcc)
