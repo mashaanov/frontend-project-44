@@ -29,6 +29,7 @@ Mind Games is a set of five console games. Each game asks questions that need to
 ## How to play BRAIN-PRIME
 
 <a href="https://asciinema.org/a/bVDcTQOZmNYFQ1mu5nxy5iGcc" target="_blank"><img src="https://asciinema.org/a/bVDcTQOZmNYFQ1mu5nxy5iGcc.svg"
+/></a>
 
 [Demo even-game](https://asciinema.org/a/RF5VLUeEmDD3DCrfCnalrXVeW)
 
