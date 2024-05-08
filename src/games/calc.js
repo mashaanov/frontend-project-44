@@ -1,24 +1,16 @@
 import { game } from '../gameTemplate.js';
-
-function getRandomIntInclusive(min, max) {
-  let minValue = min;
-  let maxValue = max;
-  minValue = Math.ceil(min);
-  maxValue = Math.floor(max);
-  return Math.floor(Math.random() * (maxValue - minValue + 1) + minValue);
-  // максимум и минимум включаются
-}
+import randomFunction from '../random-function.js';
 
 const collOfOperators = ['+', '-', '*'];
 
 const getRandomOperator = () => {
-  const randomIndex = getRandomIntInclusive(0, 2);
+  const randomIndex = randomFunction(0, 2);
   return collOfOperators[randomIndex];
 };
 
 const getRandomExpression = () => {
-  const operand1 = getRandomIntInclusive(0, 100);
-  const operand2 = getRandomIntInclusive(0, 100);
+  const operand1 = randomFunction(0, 100);
+  const operand2 = randomFunction(0, 100);
   const operator = getRandomOperator();
   return (`${operand1} ${operator} ${operand2}`);
 };
