@@ -4,14 +4,14 @@ import getRandomIntInclusive from '../random-function.js';
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const isPrime = (number) => {
-  let result = 'yes';
+  let result = true;
 
   if (number <= 1) {
-    result = 'no';
+    result = false;
   } else {
     for (let divider = 2; divider < Math.sqrt(number) + 1; divider += 1) {
       if (number % divider === 0) {
-        result = 'no';
+        result = false;
       }
     }
   }
@@ -20,7 +20,7 @@ const isPrime = (number) => {
 
 const getAnswerAndQuestion = () => {
   const question = getRandomIntInclusive(0, 100);
-  const answer = isPrime(question);
+  const answer = isPrime(question) ? "yes": "no"
   return [answer, question];
 };
 
