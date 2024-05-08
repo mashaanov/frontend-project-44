@@ -8,7 +8,7 @@ Mind Games is a set of five console games. Each game asks questions that need to
 ## Installation
 
 ### 1. Clone repository
-    git clone 
+    git clone git@github.com:mashaanov/frontend-project-44.git
 ### 2. Install packages
     npm i
 ### 3. Install local packages
